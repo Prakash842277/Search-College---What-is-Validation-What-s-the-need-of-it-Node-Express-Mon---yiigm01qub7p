@@ -1,18 +1,4 @@
-// const express = require('express')
-// const app = express()
-// const bodyParser = require("body-parser");
-// const port = 8080
-
-// // Parse JSON bodies (as sent by API clients)
-// app.use(express.urlencoded({ extended: false }));
-// app.use(express.json());
-// const { connections } = require('mongoose');
-
-
-
-// app.listen(port, () => console.log(`App listening on port ${port}!`))
-
-// module.exports = app;const express = require('express')
+const express = require('express')
 const app = express()
 const bodyParser = require("body-parser");
 const port = 8080
@@ -78,3 +64,18 @@ app.get("/findColleges", async (req,res)=>{
 app.listen(port, () => console.log(`App listening on port ${port}!`))
 
 module.exports = app;
+// const express = require('express')
+// const app = express()
+// const bodyParser = require("body-parser");
+// const port = 8080
+
+// // Parse JSON bodies (as sent by API clients)
+// app.use(express.urlencoded({ extended: false }));
+// app.use(express.json());
+// const { connections } = require('mongoose');
+
+
+
+// app.listen(port, () => console.log(`App listening on port ${port}!`))
+
+// module.exports = app;const express = require('express')
